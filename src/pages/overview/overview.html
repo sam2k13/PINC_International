@@ -1,0 +1,77 @@
+<ion-header>
+  <ion-navbar color="white-color">
+      <div style="text-align:center;background-color:white">
+        <img src="assets/images/Logo_Header.jpg">
+      </div>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <div id="{{day.id}}" *ngFor="let day of schedule">
+      <ion-item-divider color="secondary">{{day.title}}<div style='float:right'>{{day.date}}</div></ion-item-divider>
+      <ion-item *ngFor="let item of day.items">
+        <h2 class="navy">{{item.time}}</h2>
+        <h2 class="navy-bold">{{item.title}}</h2>
+        <div *ngFor="let detail of item.details">
+          <p class="navy">{{detail}}</p>
+        </div>
+      </ion-item>
+      <ion-item text-wrap>
+        <p style="text-align:center">{{day.quote}}</p>
+        <p style="text-align:center">-{{day.quote_author}}</p>
+      </ion-item>
+    </div>
+    <!-- <div>
+    <ion-item-divider color="secondary">Day 2 - Adaptibility<div style='float:right'>Sunday, May 21</div></ion-item-divider>
+    <ion-item>
+      <h2 class="navy">11:30</h2>
+      <h2 class="navy-bold">PINC Orientation</h2>
+      <p class="navy">LAE Madrid, Calle de Montesa, 35 2nd floor</p>
+    </ion-item>
+    <ion-item>
+      <h2 class="navy">2:00</h2>
+      <h2 class="navy-bold">Meet and Greet Lunch</h2>
+    </ion-item>
+    <ion-item text-wrap>
+      <h2 class="navy">7:00</h2>
+      <h2 class="navy-bold">Workshop #1: Madrid Then & Now Walking Tour</h2>
+    </ion-item>
+    <ion-item text-wrap>
+      <p style="text-align:center">“It is not the strongest of the species that survives, nor the most intelligent that survives. It is the one that is most adaptable to change”</p>
+      <p style="text-align:center">-Charles Darwin</p>
+    </ion-item>
+    </div>
+
+    <div>
+    <ion-item-divider color="secondary">Day 3 - Loyalty<div style='float:right'>Monday, May 22</div></ion-item-divider>
+    <ion-item>
+      <h2 class="navy">9:30 - 1:30</h2>
+      <h2 class="navy-bold"><u>Internship:</u> Spanish Class</h2>
+    </ion-item>
+    <ion-item>
+      <h2 class="navy">11:45 - 1:30</h2>
+      <h2 class="navy-bold"><u>Immersion:</u> Spanish Class</h2>
+    </ion-item>
+    <ion-item>
+      <h2 class="navy">3:00</h2>
+      <h2 class="navy-bold">Slice &amp; Sip: Sangria Workshop</h2>
+      <p class="navy">LAE Madrid, Calle de Montesa, 35 2nd floor</p>
+    </ion-item>
+    <ion-item>
+      <h2 class="navy">5:30</h2>
+      <h2 class="navy-bold">El Prado Museum</h2>
+      <p class="navy">Calle Ruíz de Alarcón, 23</p>
+      <p class="navy">Metro: Banco de España L2</p>
+    </ion-item>
+    <ion-item text-wrap>
+      <p style="text-align:center">“Once something is a passion, the motivation is there.”</p>
+      <p style="text-align:center">-Michael Schumacher</p>
+    </ion-item>
+    </div> -->
+
+
+  <!-- Shapes -->
+
+
+</ion-content>

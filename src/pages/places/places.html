@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    Choose A Place
+  </ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card class="card-background" (click)=view(place) *ngFor="let place of places">
+    <img class="card-dim" src="{{place.img}}"/>
+    <div class="card-title">{{place.name}}</div>
+  </ion-card>
+
+</ion-content>

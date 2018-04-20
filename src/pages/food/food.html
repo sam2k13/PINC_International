@@ -1,0 +1,93 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    Food Dictionary
+  </ion-title>
+</ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-searchbar [(ngModel)]="searchText"></ion-searchbar>
+  <ion-list>
+    <ion-item *ngFor="let food of foods | foodFilter:searchText" text-wrap>
+      <h2 class="navy-bold">{{food.name}} - <i>{{food.definition}}</i></h2>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+
+<!-- <ion-header no-border>
+  <ion-navbar>
+    <div padding>
+      <ion-segment padding>
+        <ion-segment-button value="expressions">
+          <ion-icon name="people"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="museums">
+          <ion-icon name="bookmark"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="art">
+          <ion-icon name="color-palette"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="food">
+          <ion-icon name="pizza"></ion-icon>
+        </ion-segment-button>
+      </ion-segment>
+    </div>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-list *ngIf="!hasInput">
+      <ion-searchbar [(ngModel)]="input" (ionInput)="onInput($event)"></ion-searchbar>
+      <ion-item-divider color="primary">Spanish Expressions</ion-item-divider>
+      <ion-item-group>
+        <ion-item (click)="pushDetails()">
+          <h1>A ver…</h1>
+          <p>is a commonly used phrase that is also quite general and versatile. It literally means “let’s see”, but sometimes adults use it, for example, when rallying up a group of children. Basically, you can use this when someone asks you a question and you have to think before answering. Example: ¿Cuántas personas vienen a la cena esta noche? A ver…creo que van a venir José, Mariluz, Ángel, Miguel… Pues entonces cuatro.</p>
+        </ion-item>
+        <ion-item (click)="pushDetails()">
+          <h1>Hombre</h1>
+          <p>in Spain is not just the opposite of a mujer, so don’t be offended if someone says to you, Hombre, claro. Its other use is as an intensifier, a way to express reactions like surprise, urgency, insistence, etc. In English we would use a variety of words, depending on the context. For the example stated previously, you might say, “Well, obviously.”</p>
+        </ion-item>
+      </ion-item-group>
+      <!-- <ion-item-divider color="primary">Food Dictionary</ion-item-divider>
+      <ion-item-group>
+        <ion-item>
+          <h2>Taco</h2>
+          <h3>A Shell thing</h3>
+          <p>I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.</p>
+        </ion-item>
+      </ion-item-group>
+      <ion-item-group>
+        <ion-item>
+          <h2>Finn</h2>
+          <h3>Don't Know What To Do!</h3>
+          <p>I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.</p>
+        </ion-item>
+      </ion-item-group>
+      <ion-item-divider color="primary">Museums</ion-item-divider>
+      <ion-item-group>
+        <ion-item>
+          <h2>Finn</h2>
+          <h3>Don't Know What To Do!</h3>
+          <p>I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.</p>
+        </ion-item>
+      </ion-item-group>
+      <ion-item-divider color="primary">Art</ion-item-divider>
+      <ion-item-group>
+        <ion-item>
+          <h2>Finn</h2>
+          <h3>Don't Know What To Do!</h3>
+          <p>I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.I've had a pretty messed up day. If we just.</p>
+        </ion-item>
+      </ion-item-group> -->
+    <!-- </ion-list>
+
+  <div *ngIf="hasInput" class="empty-search">
+    <img src="assets/images/grey-search-simple.png" class="slide-image"/>
+    <h2 class="slide-title">Search Anything!</h2>
+    <p>Spanish Expressions, Foods, Museums, and Art</p>
+  </div>
+
+</ion-content> --> -->

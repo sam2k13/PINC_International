@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+    {{place.name}}
+  </ion-title>
+</ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item (click)=view(item) *ngFor="let item of place.items" text-wrap>
+      <ion-thumbnail class="fit-thumbnail" item-start>
+        <ion-img [src]="item.img != '' ? item.img : 'assets/images/PINC-Logo.jpg'"></ion-img>
+      </ion-thumbnail>
+      <h2>{{item.name}}</h2>
+      <button ion-button clear icon-only item-end>
+        <ion-icon name="arrow-forward"></ion-icon>
+      </button>
+    </ion-item>
+  </ion-list>
+</ion-content>

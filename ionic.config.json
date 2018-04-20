@@ -1,0 +1,8 @@
+{
+  "name": "PINC_App",
+  "app_id": "8066fd3e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

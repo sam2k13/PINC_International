@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-navbar color="white-color">
+      <div style="text-align:center;background-color:white">
+        <img src="assets/images/Logo_Header.jpg">
+      </div>
+
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+
+  <ion-card class="card-background" (click)="view('places')">
+    <img class="card-dim" src="assets/images/retiro_puerta.jpg"/>
+    <div class="card-title">Places</div>
+  </ion-card>
+
+  <ion-card class="card-background" (click)="view('packing')">
+    <img class="card-dim" src="assets/images/baggage.jpg"/>
+    <div class="card-title">Packing List</div>
+  </ion-card>
+
+  <ion-card class="card-background" (click)="view('maps')">
+    <img class="card-dim" src="assets/images/person-train.jpg"/>
+    <div class="card-title">Metro Map</div>
+  </ion-card>
+
+  <ion-card class="card-background" (click)="view('expressions')">
+    <img class="card-dim" src="assets/images/talking.jpg"/>
+    <div class="card-title">Spanish Expressions</div>
+  </ion-card>
+
+  <ion-card class="card-background" (click)="view('food')">
+    <img class="card-dim" src="assets/images/fruits.jpg"/>
+    <div class="card-title">Food Dictionary</div>
+  </ion-card>
+
+</ion-content>

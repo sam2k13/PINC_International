@@ -1,0 +1,66 @@
+page-food {
+  ion-segment-button.segment-button {
+      display: inline-block!important;
+      min-width: 100px!important;
+      width: auto!important;
+    }
+
+    .grad {
+    background-image: url('assets/images/talking.jpg');  /* Standard syntax */
+  }
+
+  .navy-bold {
+    color:#1D2244;
+    font-weight: bold;
+  }
+
+  .navy {
+    color:#1D2244
+  }
+
+  body {
+	   text-align: center;
+	   background: #00ECB9;
+     font-family: sans-serif;
+     font-weight: 100;
+  }
+
+h1 {
+  color: #396;
+  font-weight: 100;
+  font-size: 40px;
+  margin: 40px 0px 40px;
+}
+
+#clockdiv{
+	font-family: sans-serif;
+	color: #fff;
+	display: inline-block;
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 3px;
+  border-radius: 10px;
+	background: #FF329D;
+	display: inline-block;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 10px;
+	background: #1D2244;
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
+.padding-btn {
+  margin-top: 30px;
+}
+
+}

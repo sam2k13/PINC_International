@@ -1,0 +1,36 @@
+Still Todo...
+
+Schedule Page:
+Add Packing List link?
+Update to actual schedule when available
+
+Map page:
+Add metro map
+
+Reference Page:
+List of Emergency numbers and safety tips
+
+Important Contacts:
+
+Food dictionary:
+few things to add
+
+Checkin Page:
+Update Checkin email address to lisettes
+Update date field in checkin email
+
+Store Submission:
+Submit to Apple Store
+
+TODO Now
+1. Submit To Apple Store - DONE
+2. Update Android Release - DONE
+3. Update date in checking email - PINC Server
+4. Add metro map - DONE
+5. Add Link to Packing List - WONT DO
+6. Update food dictionary
+7. Update Emergency contacts -
+
+TODO Future
+1. Update checkin email address to Lisette
+2. Update schedule
