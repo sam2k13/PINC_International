@@ -1,0 +1,20 @@
+
+#header { padding-top: 10px; position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%;  /* Full width */ background-color: black; height: 60px; padding-bottom: 10px; z-index: 1; display: flex; flex-wrap: wrap;}
+
+#header a { margin-left: 10px;  }
+
+#selector { display: flex; margin-top: 60px; }
+#selector a { margin: 5px; color:white; }
+#leftVersionSelector { flex: 1; background-color: #FFFFFF; text-align: center; padding-top: 10px; }
+#rightVersionSelector { flex: 1; background-color: #FAFAFA; text-align: center; padding-top: 10px; }
+
+
+// make flexbox by version with fixed with for each version
+#display { display: flex;  }
+#leftVersionContainer { flex: 1; background-color: #FFFFFF; }
+#rightVersionContainer { flex: 1; background-color: #FAFAFA; }
+
+#leftBackground { height: 100%; width: 50%; position: fixed; background-color: #FFFFFF; z-index: -5; }
+#rightBackground { margin-left: 50%;  height: 100%; width: 50%; position: fixed; background-color: #FAFAFA;; z-index: -5; }
