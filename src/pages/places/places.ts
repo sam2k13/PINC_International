@@ -131,31 +131,31 @@ export class PlacesPage {
   { name : 'Exploring Beyond', source : 'Chubby Spiderman from Plaza Mayor// Youtube: Littlebush Griffin' , img : 'assets/images/plaza_mayor/spiderman.jpg', content : `
 So we recommend exploring a little. Check out our guide to the nearby area of Sol and discover the labyrinth of medieval streets in La Latina and Lavapiés. You are also right near the Royal Palace and the yummy Mercado de San Miguel. Down the block from the Mercado de San Miguel is another famous foodie mecca, Restaurant Botín. Restaurant Botín is the oldest restaurant in the world. The famous painter Goya worked in the restaurant as a waiter when he was young- meaning the stereotype of the struggling artist has been around for a while.
   ` } ] },
-  { name : 'Barcelona', img : 'assets/images/barcelona/barcelona.jpg', items : [ { name : 'About', source : '' , img : '', content : `
+  { name : 'Barcelona', img : 'assets/images/barcelona/barcelona.jpg', items : [ { name : 'About', source : 'Barcelona // Riot Games' , img : 'assets/images/barcelona/barcelona.jpg', content : `
   <p>Located on the Mediterranean Sea in the Spanish Autonomous Community of Catalonia, Barcelona rivals Madrid as being one of Spain’s most iconic cities. Like shopping? Then check out the Passeig de Gracia or Las Ramblas, Barcelona’s most famous shopping streets with a range of international brands and local boutiques. When strolling through the streets, you will see some of Antoni Gaudí’s iconic architecture, but also take time to take a tour of the imposing Sagrada Familía and the whimsical Park Güell. Then in the afternoon, head on down to the bustling La Barceloneta, where you can get lunch and a café con leche or just relax on the beach.</p>
   ` },
-  { name : 'Sagrada Familía', source : 'Sagrada Familía' , img : '', content : `
+  { name : 'Sagrada Familía', source : 'Sagrada Familía // Wikipedia' , img : 'assets/images/barcelona/sagrada.jpg', content : `
   <p>Undoubtedly one of the most famous monument in Barcelona, Gaudí’s Basilica of the Sagrada Familía is an awe-inspiring and mesmerizing architectural achievement. Construction began in 1882 and is still underway, only having passed the midpoint of construction in 2010. The Basilica was consecrated in 2010 and was also named a UNESCO World Heritage Site. Filled with ornate details and religious symbolism on both the interior and exterior, this is definitely one place where you could stay for hours.</p>
   ` },
-  { name : 'Park Güell', source : 'Park Güell' , img : '', content : `
+  { name : 'Park Güell', source : 'Park Güell // Living Tours' , img : 'assets/images/barcelona/park_guell.jpg', content : `
   <p>Another Barcelona monument envisioned by Gaudí, this outdoor space that blends the traditional architectural elements of a planned garden with Gaudí’s iconic Catalan modernism. Also a UNESCO World Heritage Site, the park was built between 1900 and 1914. Make sure to stop by the main terrace to see panoramic views of the city- great for a photo op!</p>
   ` },
-  { name : 'Barceloneta Beach', source : 'Barceloneta Beach' , img : '', content : `
+  { name : 'Barceloneta Beach', source : 'Barceloneta Beach // 60by80' , img : 'assets/images/barcelona/barceloneta.jpg', content : `
   <p>A short Metro ride from Barcelona city center, Barceloneta Beach is a welcome escape from Gothic cathedrals and crowded city streets. Located adjacent to the historic fishing quarter, you can still find very fresh seafood. If that’s not for you, a number of hip vegan and vegetarian eateries are also nearby. Remember to pack your sunscreen and a towel so that you can sit out on the beach and enjoy the sun alongside tourists and locals alike.</p>
   ` }] },
-  { name : 'Segovia', img : '', items : [ { name : 'Segovia’s Castle - Walt Disney Inspired', source : 'Segovia’s Castle' , img : '', content : `
+  { name : 'Segovia', img : 'assets/images/segovia/segovia.jpg', items : [ { name : 'Segovia’s Castle - Walt Disney Inspired', source : 'Segovia’s Castle // Thousand Wonders' , img : 'assets/images/segovia/castle.jpg', content : `
   <p>Segovia has one of the most fascinating Roman Empire engineering accomplishments that is best preserved in Spain, this reason alone is worth the short bus or train ride. Legend has it that the Aqueduct was built by the Devil (Puente de Diablo) one night to win a young woman’s soul but he didn’t complete the bridge in time and left his finger marks, or holes in the stones, as a sign of his failure. Another well-known monument in Segovia is The Alcazar, a castle which Walt Disney is said to have used as his inspiration for Cinderella's Castle.</p>
   ` },
-  { name : 'Segovia’s Cathedral', source : 'Segovia’s Cathedral' , img : '', content : `
+  { name : 'Segovia’s Cathedral', source : 'Segovia’s Cathedral // YouTube' , img : 'assets/images/segovia/cathedral.jpg', content : `
   <p>No visit to Segovia is complete without a visit to Segovia Cathedral, which took over 200 years to complete! Segovia Cathedral is considered to be the last masterpiece of Basque-Castilian Gothic architecture built in Spain and the beautiful stained-glass windows will leave you inspired.</p>
   ` }] },
-  { name : 'Toledo', img : '', items : [ { name : 'About', source : '' , img : '', content : `
+  { name : 'Toledo', img : 'assets/images/toledo/toledo.jpg', items : [ { name : 'About', source : 'Toledo // Toledo Sister Cities' , img : 'assets/images/toledo/toledo.jpg', content : `
   <p>Known as the “City of the Three Cultures”, the cultural influences of Christians, Muslims and Jews who at various times lived in the city are present in Toledo’s most well-known monuments. Because of its rich cultural heritage,Toledo was named by UNESCO as a World Heritage Site in 1986. Spanish Renaissance artist El Greco lived in Toledo, a museum dedicated to his works are housed in a 16th century house that is a recreation of his home and studio.</p>
   ` },
-  { name : 'The Cathedral of Toledo', source : 'The Cathedral of Toledo' , img : '', content : `
+  { name : 'The Cathedral of Toledo', source : 'The Cathedral of Toledo // Thousand Wonders' , img : 'assets/images/toledo/cathedral.jpg', content : `
   <p>The Cathedral of Toledo is one of Spain’s most renowned cathedrals and was built on top of a Moorish mosque.</p>
   ` },
-  { name : 'Synagogue of Santa Maria La Blanca', source : 'Synagogue of Santa Maria La Blanca' , img : '', content : `
+  { name : 'Synagogue of Santa Maria La Blanca', source : 'Synagogue of Santa Maria La Blanca // flickr' , img : 'assets/images/toledo/synagogue.jpg', content : `
   <p>Another converted religious site, the Synagogue of Santa Maria La Blanca was built as a synagogue in the 13th century but was later turned into a Christian church. </p>
   ` }] }]
 

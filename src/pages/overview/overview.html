@@ -10,7 +10,7 @@
 <ion-content>
     <div id="{{day.id}}" *ngFor="let day of schedule">
       <ion-item-divider color="secondary">{{day.title}}<div style='float:right'>{{day.date}}</div></ion-item-divider>
-      <ion-item *ngFor="let item of day.items">
+      <ion-item *ngFor="let item of day.items" text-wrap>
         <h2 class="navy">{{item.time}}</h2>
         <h2 class="navy-bold">{{item.title}}</h2>
         <div *ngFor="let detail of item.details">
